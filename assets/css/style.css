@@ -775,9 +775,6 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
-}
-
-#services .title a {
   color: #111;
 }
 
@@ -1677,4 +1674,8 @@ section {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+
+.title-green {
+  color: #18d26e;
 }
