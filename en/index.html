@@ -40,7 +40,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css"
         integrity="sha512-Velp0ebMKjcd9RiCoaHhLXkR1sFoCCWXNp6w4zj1hfMifYB5441C+sKeBl/T/Ka6NjBiRfBBQRaQq65ekYz3UQ==" crossorigin="anonymous" />
 
-  <link href="/assets/css/style.min.css" rel="stylesheet">
+  <link href="/assets/css/style.css" rel="stylesheet">
 
 </head>
 
@@ -213,7 +213,7 @@
                 </picture>
                 <div class="icon"><i class="fas fa-heart"></i></div>
               </div>
-              <h2 class="title"><a href="#">Support</a></h2>
+              <h2 class="title"><a href="#">We support</a></h2>
               <p>When everything is implemented and you are statisfied with the result. We either give you your website/application and explain everything you need to know about your product. Or we can do the hosting for you and we start putting everything online. After we delivered the product we are still available to fix issues or answer questions you may have. Supporting our clients is really important for us!</p>
             </div>
           </div>
@@ -483,7 +483,7 @@
           </div>
 
           <div class="col-lg-9 col-md-6">
-            <p>I'm Wout a passionate developer with love for both front-end and back-end. Why am I saying that i'm a passionated developer? Well The answer is rather simple and lies in what I do in my free time. I love to develop in my free time, I often stream on Twitch while developing one of my applications. I watch a lot of tech talks on youtube. (Google IO, Devoxx, NG-Conf, ...). So i'm dedicating a lot of time to programming. Of course most of us needs some sport as well so I play volleyball to let of some steam.</p>
+            <p>I'm Wout a passionate developer with love for creating beautiful, responsive and fast websites, software and applications. I'm also always learning what's new on the market to keep up to date with the latests technologies. This makes sure that I will always we able to help our clients in the best possible way.</p>
           </div>
         </div>
 
@@ -543,26 +543,21 @@
           <form role="form" id="contact-form" class="php-email-form">
             <div class="form-row">
               <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                <div class="validate"></div>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" class="form-control" placeholder="Your Name" required/>
               </div>
               <div class="form-group col-md-6">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validate"></div>
+                <label for="email">Email</label>
+                <input type="email" id="email" class="form-control" name="email" placeholder="Your Email" required />
               </div>
             </div>
             <div class="form-group">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
-              <div class="validate"></div>
+              <label for="subject">Subject</label>
+              <input id="subject" type="text" class="form-control" name="subject" placeholder="Subject" required />
             </div>
             <div class="form-group">
-              <textarea class="form-control" name="body" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
-              <div class="validate"></div>
-            </div>
-            <div class="mb-3">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
+              <label for="message">Message</label>
+              <textarea id="message" class="form-control" name="body" rows="5" required placeholder="Message"></textarea>
             </div>
             <div class="text-center"><button type="submit">Send Message</button></div>
           </form>
@@ -634,9 +629,9 @@
   <script src="https://zsoft-436d.restdb.io/rest/_jsapi.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="/assets/js/init-sw.min.js"></script>
-  <script src="/assets/js/navbar.min.js"></script>
-  <script src="/assets/js/main.min.js" async></script>
+  <script src="/assets/js/init-sw.js"></script>
+  <script src="/assets/js/navbar.js"></script>
+  <script src="/assets/js/main.js" async></script>
 
 </body>
 

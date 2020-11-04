@@ -1,4 +1,4 @@
-const CACHE_NAME = 'zsoft-V2';
+const CACHE_NAME = 'zsoft-V4';
 const URLS_CACHE_ONLY = [
 // Non changeable CSS
     'https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Montserrat:300,400,500,700',
@@ -15,7 +15,7 @@ const URLS_CACHE_ONLY = [
     'https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.css',
     'https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker3.min.css',
     '/assets/css/offerte/themify-icons.css',
-    '/assets/css/rangeslider.css',
+    '/assets/vendor/rangeslider/rangeslider.css"',
 
     // Non changeable JS
     '/assets/vendor/jquery/jquery.min.js',
@@ -30,7 +30,7 @@ const URLS_CACHE_ONLY = [
     'https://cdnjs.cloudflare.com/ajax/libs/spectrum/1.8.0/spectrum.min.js',
     'https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js',
     'https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/locales/bootstrap-datepicker.nl.min.js',
-    '/assets/js/rangeslider.js',
+    '/assets/vendor/rangeslider/rangeslider.min.js"',
     '/assets/js/offerte/jquery.bootstrap.wizard.js',
     '/assets/js/offerte/jquery.validate.min.js',
 
