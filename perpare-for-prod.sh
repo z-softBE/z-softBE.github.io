@@ -4,6 +4,7 @@ minify -o assets/css/offerte/offer.min.css assets/css/offerte/offer.css
 terser --compress --mangle --output assets/js/main.min.js assets/js/main.js
 terser --compress --mangle --output assets/js/init-sw.min.js assets/js/init-sw.js
 terser --compress --mangle --output assets/js/navbar.min.js assets/js/navbar.js
+terser --compress --mangle --output assets/js/offerte/jquery.bootstrap.wizard.min.js assets/js/offerte/jquery.bootstrap.wizard.js
 
 
 sed -i 's/style.css/style.min.css/' index.html
